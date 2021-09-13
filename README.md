@@ -15,7 +15,10 @@ Links relacionados con el proyecto:
 
 * Mock Ups: https://www.figma.com/file/m2tlnktcxSkO3cC4b57qJ3/Proyecto?node-id=0%3A1
 * Trello: https://trello.com/b/CUrUnNx6/proyecto-de-catedra
-* 
+
+![Alt Text](https://licensebuttons.net/l/by-nc/3.0/88x31.png)
+Atribución-NoComercial
+CC BY-NC
 
 
 
