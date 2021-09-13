@@ -16,9 +16,6 @@ Links relacionados con el proyecto:
 * Mock Ups: https://www.figma.com/file/m2tlnktcxSkO3cC4b57qJ3/Proyecto?node-id=0%3A1
 * Trello: https://trello.com/b/CUrUnNx6/proyecto-de-catedra
 
-![Alt Text](https://licensebuttons.net/l/by-nc/3.0/88x31.png)
-Atribución-NoComercial
-CC BY-NC
-
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Proyecto de Catedra LIC</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Reconocimiento-NoComercial 4.0 Internacional License</a>.
 
 
