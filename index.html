@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body class="land">
+
+    <div class="menu-btn">
+        <i class="fas fa-bars">
+
+        </i>
+
+    </div>
+    <div class="container">
+        <nav class="nav-main">
+            <img src="Fullimages/brand.jpg" alt="FullGamingNews-LOGO" class="nav-brand">
+            <ul class="nav-menu">
+                <li>
+                    <a href="Index.html">Inicio</a>
+
+                </li>
+                <li>
+                    <a href="#">Movil</a>
+
+                </li>
+                <li>
+                    <a href="#">PS5</a>
+
+                </li>
+                <li>
+                    <a href="#">Switch</a>
+
+                </li>
+                <li>
+                    <a href="#">XSeries</a>
+
+                </li>
+                <li>
+                    <a href="#">Arcade</a>
+
+                </li>
+                <li>
+                    <a href="#">eSports</a>
+
+                </li>
+
+            </ul>
+            <ul class="nav-menu-right">
+                <li>
+                    <a href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+
+        <!-- Imagen principal del sitio-->
+
+        <!-- Inicio Prueba -->
+ <!-- Slideshow container -->
+<div class="slideshow-container">
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 5</div>
+    <header class="showcasea">
+      <h2>Big News Today</h2>
+      <p>Honkai: Star Rail, el nuevo juego de los creadores de Genshin Impact anuncia su beta.</p>
+      <p>Las inscripciones para probar el nuevo videojuego de MiHoYo arrancarán la semana que viene.</p>
+
+      <a href="N1.html" class="btn">Leer mas<i class="fas fa-angle-double-right"></i></a>
+  </header>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 5</div>
+    <header class="showcaseb">
+      <h2>Pokémon Unite llega a Móviles</h2>
+      <p>Pokémon Unite es el último videojuego lanzado por la popular franquicia de Nintendo. </p>
+      <p>Se trata de un videojuego multijugador Free-to-Play, esto significa que se puede descargar gratis pero que incluye micro pagos opcionales con dinero real. </p>
+
+      <a href="N2.html" class="btn">Leer mas<i class="fas fa-angle-double-right"></i></a>
+  </header>
+   
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 5</div>
+    <header class="showcasec">
+      <h2>Genshin Impact lanza código de Protogemas válido para el parche 2.2</h2>
+      <p>Genshin Impact es uno de esos juegos en los que es posible ingresar códigos promocionales y conseguir recompensas.</p>
+      <p>El lugar habitual para obtenerlo es la presentación en directo que da acceso a tres códigos, pero de vez en cuando se pueden obtener otros códigos. </p>
+
+      <a href="#" class="btn">Leer mas<i class="fas fa-angle-double-right"></i></a>
+  </header>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <header class="showcased">
+      <h2>¿PlayStation está abierto a regalar más juegos a usuarios de PS5?</h2>
+      <p>Recientemente, Jim Ryan, presidente de PlayStation, concedió una entrevista a GamesIndustry.biz en la que hablaron varios detalles sobre la industria y la marca que dirige. </p>
+      <p>Uno de los temas que se tocaron fue la promoción Play at Home, la cual regaló títulos como Uncharted: The Nathan Drake Collection y Horizon: Zero Dawn para que los jugadores se entretuvieran durante el confinamiento.</p>
+
+      <a href="N4.html" class="btn">Leer mas<i class="fas fa-angle-double-right"></i></a>
+  </header>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5/ 5</div>
+    <header class="showcasee">
+      <h2>Resultados en la jornada 3 en la fase de grupos del Worlds 2021</h2>
+      <p>Termina el tercer día de la tan ansiada fase de Grupos en el Worlds 2021, de la décimo primera edición del campeonato mundial de League of Legends.</p>
+      <p>Donde se enfrentaron por tercera vez los mejores equipos de la escena competitiva de LoL y abrieron paso a las mejores partidas del mundo. </p>
+
+      <a href="N8.html" class="btn">Leer mas<i class="fas fa-angle-double-right"></i></a>
+  </header>
+  </div>
+
+
+  <!-- Next and previous buttons -->
+<!--  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>-->
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+</div>
+
+<script>
+  var slideIndex = 0;
+  showSlides();
+  
+  function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 6000); // Change image every 2 seconds
+  }
+  </script>
+        <!-- fin prueba 1-->
+       
+        <!-- Concepto 1-->
+        <div class="new-concept">
+            <div>
+                <img src="Fullimages/ps5so.jpg" alt="full">
+                <h3>Sony no puede con la demanda de PS5 </h3>
+                <p>La increíble demanda de la consola hace que sea casi imposible encontrarla disponible
+                   en tiendas físicas como electrónicas ya que al haber un stock este te agota en cuestión de minutos. </p>
+                <a href="N5.html">Leer mas<li class="fas fa-angle-double-right"></li></a>
+            </div>
+
+            <div>
+                <img src="Fullimages/S4k.jpg" alt="full">
+                <h3>Nintendo lanzaría la Switch 4K a finales de 2022</h3>
+                <p>Desde que se descubrió que el dock mejorado del modelo OLED de Nintendo Switch estaría preparado para reproducir juegos a 4K y 60 fps no han dejado de surgir 
+                  informaciones acerca de una posible nueva híbrida enfocada a estas características. </p>
+                <a href="N6.html">Leer mas<li class="fas fa-angle-double-right"></li></a>
+            </div>
+
+            <div>
+                <img src="Fullimages/GP.jpg" alt="full">
+                <h3>Anunciado un nuevo juego que llegará a Xbox Game Pass </h3>
+                <p>Hace escasas horas se ha revelado un nuevo juego que llegará a Xbox Game Pass 
+                  de la segunda quincena del mes de octubre y Tal y como han compartido nuestros compañeros de gamingbolt.
+                </p>
+                <a href="N7.html">Leer mas<li class="fas fa-angle-double-right"></li></a>
+            </div>
+
+            <div>
+                <img src="Fullimages/play.jpg" alt="full">
+                <h3>Filtraciones</h3>
+                <p>Durante el corto tiempo que el juego estuvo disponible accidentalmente en la App Store
+                    algunos jugadores pudieron tener en sus manos el metraje del juego e incluso el texto,
+                    las ilustraciones, los personajes y la jugabilidad relacionados con la historia.
+                </p>
+                <a href="#">Leer mas<li class="fas fa-angle-double-right"></li></a>
+            </div>
+
+        </div>
+
+        <!-- concepto Banner 1-->
+    <section class="concept-banner-one">
+        <div class="content">
+          <h2>!Ultima Hora¡</h2>
+          <!-- lorem 20 -->
+          <p>¡Japón despidió a uno de los arcades de SEGA más populares tras 28 años de servicio.!</p>
+          <a href="N9.html" class="btn">Learn More<i class="fas fa-angle-double-right"></i></a>
+        </div>
+      </section>
+
+
+      <!-- Concepto 2-->
+      <div class="new-concept">
+        <div>
+            <img src="Fullimages/GOW5.jpg" alt="full">
+            <h3>God of War Ragnarok reaparece a lo grande: nuevo tráiler del regreso de Kratos</h3>
+            <p>God of War: Ragnarok será, salvo enorme sorpresa, uno de los juegos que marcarán la historia de PS5. Cuando hablamos de la saga de Santa Monica Studio lo hacemos de una de las franquicias más míticas de la historia y su quinta entrega va a llegar en el mejor momento. ¿Por qué? Porque tras lo que parecía el final de Kratos y su lucha contra los Dioses griegos en PS3, revivió en PS4 con la cuarta entrega de la saga</p>
+            <a href="#">Leer mas<li class="fas fa-angle-double-right"></li></a>
+        </div>
+
+        <div>
+            <img src="Fullimages/efutbol.jpg" alt="full">
+            <h3>eFootball 2022 recibe una oleada de críticas negativas de usuarios en Steam</h3>
+            <p>eFootball 2022 ya está disponible para descargar gratis en consolas y PC.
+
+            A las pocas horas del lanzamiento la tienda de Valve indica unas opiniones "Extremadamente negativas" donde muchos fans se quejan de diversos aspectos, desde el limitado contenido -que se espera que se solucione en un futuro- a aspectos técnicos, jugables y bugs. Las redes sociales también empiezan a recoger fallos e imágenes con el rostro de algunas estrellas que, en ocasiones, son un poco irreconocibles
+            </p>
+            <a href="#">Leer mas<li class="fas fa-angle-double-right"></li></a>
+        </div>
+
+        <div>
+            <img src="Fullimages/btf.jpg" alt="full">
+            <h3>Beta de Battlefield 2042: fecha, horarios y cómo descargar</h3>
+            <p>Battlefield 2042 celebra esta semana su beta abierta. La prueba gratuita está disponible en todas las plataformas: PC, PlayStation 5, PlayStation 4, Xbox Series X/S y Xbox One. La precarga se activó en la mañana del 5 de octubre, por lo que ya se puede instalar. Sin embargo, el acceso no será simultáneo para todos los jugadores.
+            </p>
+            <a href="#">Leer mas<li class="fas fa-angle-double-right"></li></a>
+        </div>
+
+        <div>
+            <img src="Fullimages/horizon.jpg" alt="full">
+            <h3>Ya puedes apartar Horizon Forbidden West y su edición especial para PS4 y PS5</h3>
+            <p>La semana pasada, Sony Interactive Entertainment mostró todas las ediciones de Horizon Forbidden West que estarán disponibles. Si bien las ediciones de colección volaron y sólo duraron pocos minutos en preventa, todavía hay algunas de ellas que puedes conseguir. ¿Quieres saber cuáles y cómo? Aquí te decimos como apartarlas.
+            </p>
+            <a href="#">Leer mas<li class="fas fa-angle-double-right"></li></a>
+        </div>
+
+    </div>
+
+     <!-- concepto Banner 2-->
+    <section class="concept-banner-two">
+        <div class="content">
+          <h2>GTA Trilogy Remastered.</h2>
+          <!-- lorem 30 -->
+          <p> Grand Theft Auto: The Trilogy – Definitive Edition es real y aterrizará en Xbox One, Xbox Series X|S, PlayStation 4, PS5, Nintendo Switch y PC este mismo año. A dispositivos móviles llegará en 2022.</p>
+          <a href="#" class="btn">Learn More <i class="fas fa-angle-double-right"></i></a>
+        </div>
+      </section>
+
+      <!-- Redes sociales -->
+    <section class="Red_Social">
+        <p>Siguenos a FullGamingNews</p>
+        <div class="links">
+          <a href="https://facebook.com">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://twitter.com">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://linkdin.com">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://youtube.com">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    </div>
+
+    <div class="footer-links">
+        <div class="footer-container">
+          <ul>
+            <li>
+              <a href="#">
+                <h3>Descargas</h3>
+              </a>
+            </li>
+            <li>
+              <a href="#">Roms</a>
+            </li>
+            <li>
+              <a href="#">Emuladores</a>
+            </li>
+            <li>
+              <a href="#">Bios Archivos</a>
+            </li>
+            <li>
+              <a href="#">WinRar</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#">
+                <h3>Title Two</h3>
+              </a>
+            </li>
+            <li>
+              <a href="#">Blockchain</a>
+            </li>
+            <li>
+              <a href="#">Machine Learning</a>
+            </li>
+            <li>
+              <a href="#">Artificial Intelligence</a>
+            </li>
+            <li>
+              <a href="#">Quantum Computing</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#">
+                <h3>Importante</h3>
+              </a>
+            </li>
+            <li>
+              <a href="#">Política de Privacidad</a>
+            </li>
+            <li>
+              <a href="#">Terminos de Servicio</a>
+            </li>
+            <li>
+              <a href="#">Legal/DMCA</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#">
+                <h3>Title Four</h3>
+              </a>
+            </li>
+            <li>
+              <a href="#">Blockchain</a>
+            </li>
+            <li>
+              <a href="#">Machine Learning</a>
+            </li>
+            <li>
+              <a href="#">Artificial Intelligence</a>
+            </li>
+            <li>
+              <a href="#">Quantum Computing</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer -->
+  <footer class="footer">
+    <h3>FullGamingNews Copyright</h3>
+  </footer>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
