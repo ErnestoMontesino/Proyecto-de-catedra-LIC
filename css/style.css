@@ -5,7 +5,6 @@
 
 }
 
-
 body{
     background-color: black;
     color: white
@@ -115,7 +114,6 @@ width: 240px;
 }
 
 
-
 /* Responsive Button */
 .menu-btn {
     cursor: pointer;
@@ -132,12 +130,25 @@ hr{
 margin: 10px 0;
 }
 
+.showcasev{
+  width: 100%;
+  height: 550px;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
 
 
-.showcase{
+.showcasea{
     width: 100%;
     height: 550px;
-    background-image: url('/Fullimages/starrail.jpg'); 
+    background-image: url(https://i.blogs.es/abab99/honkai-impact-star-rail/1366_2000.jpeg); 
     align-items: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -148,6 +159,68 @@ margin: 10px 0;
     align-items: center;
     justify-content: flex-end;
 }
+
+.showcaseb{
+  width: 100%;
+  height: 550px;
+  background-image: url(https://i.ytimg.com/vi/_vr6JEY5Uog/maxresdefault.jpg); 
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.showcasec{
+  width: 100%;
+  height: 550px;
+  background-image: url(https://areajugones.sport.es/wp-content/uploads/2021/10/pukb9j1mih8-1280x720-1-1080x609.jpg); 
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.showcased{
+  width: 100%;
+  height: 550px;
+  background-image: url(https://media.vandal.net/i/1280x720/3-2021/20213171931833_1.jpg.webp); 
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.showcasee {
+  width: 100%;
+  height: 550px;
+  background-image: url(https://phantom-marca.unidadeditorial.es/9315dbf1c4f171495b513af8b3d0c749/resize/1320/f/jpg/assets/multimedia/imagenes/2021/09/23/16324106097430.jpg); 
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+
 
 .showcase p{
     text-align: justify;
@@ -207,12 +280,43 @@ margin: 10px 0;
 
 }
 
+/*Noticias separadas*/
+
+.newb-concept{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 60px;
+  margin: 10px 0;
+}
+
+.newb-concept img{
+  width: 100%;
+  height: 180px;
+}
+
+.newb-concept h3{
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.newb-concept a{
+  padding:10px 0;
+  color: whitesmoke;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.newb-concept a:hover{
+  text-decoration: underline;
+
+}
 
 /* banner #1 */
 .concept-banner-one {
     width: 100%;
     height: 250px;
-    background: url("/Fullimages/banner1.jpg");
+    background: url(https://cdn.atomix.vg/wp-content/uploads/2021/08/New-Project-6.jpg);
     margin-bottom: 40px;
   }
 
@@ -232,8 +336,8 @@ margin: 10px 0;
   /*banner #2*/
   .concept-banner-two {
     width: 100%;
-    height: 250px;
-    background: url("/Fullimages/banner2.jpg") no-repeat center center/cover;
+    height: 500px;
+    background: url(https://media.rockstargames.com/tina-uploads/posts/3933o7ko43o839/8ccfba9f8a0406093a2b792fb779e0a3af46f3f8.jpg) no-repeat center center/cover;
     margin-bottom: 40px;
     
   }
@@ -380,5 +484,172 @@ margin: 10px 0;
     }
   }
 
-  
-  
+
+
+ /* prueba*/
+ * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 35px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: left;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 24px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*Prueba contenido*/
+/*Contenido principal de las paginas */
+/* MENU */
+
+/*Contenido principal de las paginas */
+#contenido{
+width: 80%;
+margin: 0px auto;
+clear: left;
+overflow: auto;
+min-width: 650px;/* YA NO REACCIONARA SI LA CAJA ES MAS PEQUEÑA DE
+650px*/
+max-width: 960px;/*YA NO REACCIONARA SI LA CAJA ES MAS GRANDE QUE 960
+px*/
+}
+/* CONTENIDO DE LA PAGINA INDEX */
+.plan{
+width: 26.7%; /* 258/960= 27%*/
+padding: 2%; /* 20/960=2%*/
+margin: 30px 1.5%;
+background-color:white;
+border: solid 1px black;
+border-radius: 10px;
+float: left;
+text-align: justify;
+
+}
+.plan img{
+width: 100%;
+}
+/* Primer div, cuarto div,... */
+#contenido div:nth-child(3n+1){
+  margin-left: 0px;
+ }
+ /* Tercer div, sexto div, .... */
+ #contenido div:nth-child(3n){
+  margin-right: 0px;
+ 
+ }
+ /* CONTENIDO DE LA PAGINA PLANES */
+ .planes{
+  width: 94%;
+
+  padding: 1% 3%;
+ }
+ .planes img{
+  width: 80%;
+  border-radius: 15px;
+ }
+ .planes h1{
+  text-align: left;
+  font-size: 1.5em;
+ }
+ .planes .precio{
+  font-size: 1.1em;
+  margin: 20px 0px 5px;
+  padding-bottom: 15px;
+  border-bottom: solid 2px grey;
+  font-weight: bold;
+ }
+ /* CONTENIDO DE LA PAGINA GALERIA*/
+ #galeria .plan{
+  font-size: 1em;
+  padding-bottom: 10px;
+  margin: 30px 1.4% 10px;
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  text-align: center;
+  font-style: italic;
+ }
